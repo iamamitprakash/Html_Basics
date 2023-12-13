@@ -1,0 +1,82 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.first-image,
+.second-image,
+.third-image,
+.fourth-image {
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.first-image {
+    background-image: url(image/Mountain_Nature.jpg);
+    min-height: 400px;
+}
+
+.second-image {
+    background-image: url(image/Birds_Nature.webp);
+    min-height: 400px;
+}
+
+.third-image {
+    background-image: url(image/Moonlight_Nature.jpg);
+    min-height: 400px;
+    background-size: 100%;
+
+}
+
+.fourth-image {
+    background-image: url(image/River_Nature.jpg);
+    min-height: 400px;
+}
+
+section {
+    text-align: center;
+    padding: 3rem 5rem;
+}
+
+.mountain {
+    background-color: lightcyan;
+    color: black;
+}
+
+.nature-beauty {
+    background-color: lightgoldenrodyellow;
+    color: black;
+}
+
+.moonlight {
+    background-color: lightcyan;
+    color: black;
+}
+
+.image {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    position: relative;
+}
+
+.image div {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 8PX;
+}
