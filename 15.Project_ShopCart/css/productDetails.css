@@ -41,3 +41,7 @@
     margin-top: 1rem;
     width: 250px;
 }
+
+.product-action {
+    gap: 1rem;
+}
